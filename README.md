@@ -1,0 +1,4 @@
+# BidSquare
+
+**TODO: Add description**
+

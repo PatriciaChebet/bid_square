@@ -9,6 +9,15 @@
 # move said applications out of the umbrella.
 import Config
 
+config :auction, ecto_repos: [Auction.Repo]
+
+config :auction, Auction.Repo,
+    database: "auction",
+    username: "chebet",
+    password: "newdb",
+    hostname: "localhost",
+    port: 5432
+
 config :phoenix, :json_library, Jason
 
 config :auction_web,
